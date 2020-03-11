@@ -1,0 +1,98 @@
+#wrapper {
+    width: 1200px;
+    height: 1200px;
+    margin: auto;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+#box {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 450px;
+    margin: 0 auto;
+}
+#img_cpu img {
+    width: 350px;
+    height: auto;
+    border: solid 2px black;
+}
+p#name_cpu {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#vs img {
+   width: 100px;
+   height: 100px;
+   padding-top: 150px;
+   margin: 0px 50px;
+}
+#img_you img {
+    width: 350px;
+    height: auto;
+    border: solid 2px black;
+}
+p#name_you {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#select {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+input[type="radio"] {
+    margin: 0 30px;
+    width: 20px;
+    height: 20px;
+}
+#button {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin: 50px auto;
+}
+#start {
+    display: block;
+    font-size: 18px;
+    padding: 15px;
+    color: skyblue;
+    border: solid 2px skyblue;
+    width: 200px;
+    margin-right: 50px;
+}
+#start:hover {
+    background:skyblue;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+#reset {
+    display: block;
+    font-size: 18px;
+    padding: 15px;
+    color: mediumspringgreen;
+    border: solid 2px mediumspringgreen;
+    width: 200px;
+}
+#reset:hover {
+    background:mediumspringgreen;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+
+#ru-ru {
+    text-align: center;
+    font-size: 25px;
+}

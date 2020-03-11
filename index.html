@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jyanken</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1 id="title">じゃんけんぽんっ！！！</h1>
+        <div id="box">
+            <div id="cpu">
+                <h2 id="img_cpu"><img src="img/cpu.png" alt=""></h2>
+                <p id="name_cpu">CPU</p>
+            </div>
+            <h id="vs"><img src="img/vs.jpg" alt=""></h>
+            <p id="result"></p>
+            <div id="you">
+                <h2 id="img_you"><img src="img/you.png" alt=""></h2>
+                <p id="name_you">YOU</p>
+            </div>
+        </div>
+        <div id="select">
+            <input type="radio" name="select" value=0>グー
+            <input type="radio" name="select" value=1>チョキ
+            <input type="radio" name="select" value=2>パー
+        </div>
+        <div id="button">
+            <button id="start">◆START◆</button>
+            <button id="reset">◆RESET◆</button>
+        </div>
+        <p id="ru-ru">出し方を選択して、STARTボタンを押してね！</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
